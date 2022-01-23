@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400&display=swap');
+*{
+    font-family: 'Outfit', sans-serif;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+body{
+    min-height: 100vh;
+    background: hsl(217, 54%, 11%);
+}
+#outer{
+    background: hsl(217, 54%, 11%);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#inner{
+    background: hsl(216, 50%, 16%);
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+#inner-content{
+    margin: 10px;
+}
+#img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+h3{
+    color: #fff;
+    padding-top: 25px;
+}
+#equi-text{
+    color: hsl(215, 51%, 70%);
+}
+#eth{
+    display: flex;
+    justify-content: space-between;
+    color: hsl(215, 51%, 70%);
+}
+#eth-color{
+    color: hsl(178, 100%, 50%);
+}
+#avatar{
+    display: flex;
+    justify-content: space-around;
+}
+#avatar-desc{
+    margin-top: 5px;
+}
+span{
+    color: hsl(215, 51%, 70%);
+}
+#name{
+    color: #fff;
+}
+hr{
+    border: 0.5px solid #808080;
+}
+footer{
+    background: #fff;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 5px 5px;
+}
+
+
+@media screen and (min-width: 700px) {
+    #inner{
+        background: hsl(216, 50%, 16%);
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        width: 40%;
+        border-radius: 10px;
+        padding: 10px 20px;
+        word-break: break-all;
+        margin-bottom: 40px;
+    }
+    #inner-content{
+        margin: 10px;
+    }
+    #img{
+        max-width: 100%;
+        height: auto;
+        border-radius: 10px;
+        
+    }
+    
+}
+
+@media screen and (min-width: 1024px) {
+    #inner{
+        background: hsl(216, 50%, 16%);
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        width: 30%;
+        border-radius: 10px;
+        padding: 10px 20px;
+        word-break: break-all;
+        margin-bottom: 40px;
+    }
+}
